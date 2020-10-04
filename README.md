@@ -25,10 +25,13 @@ cd laravel-vue
 ```
 
 ## Configuração - Backend
-Primeiro criar um banco de dados com o nome `laravel-vue` e depois:
+Primeiro criar um banco de dados com o nome `laravel_vue` e depois:
 ``` bash
 # Instalar dependências do projeto
 composer install
+
+# Configurar variáveis de ambiente
+cp .env.example .env
 
 # Criar migrations (Tabelas)
 php artisan migrate
