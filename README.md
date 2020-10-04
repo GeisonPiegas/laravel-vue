@@ -32,6 +32,7 @@ composer install
 
 # Configurar variáveis de ambiente
 cp .env.example .env
+php artisan key:generate
 
 # Criar migrations (Tabelas)
 php artisan migrate
